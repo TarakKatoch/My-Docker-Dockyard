@@ -1,4 +1,5 @@
-﻿# Streamlit-based Titanic Survival Prediction Model with Docker
+# Streamlit-based Titanic Survival Prediction Model with Docker
+
 ## 📌 Project Overview
 The **Titanic Survival Prediction Model** is a machine learning application that predicts whether a passenger would have survived the Titanic disaster based on input parameters. The project is built using **Python, scikit-learn, pandas**, and features a **Streamlit web interface**. To ensure seamless deployment and portability, **Docker** is used to containerize the application.
 
@@ -58,7 +59,7 @@ The application is containerized using **Docker** for easy deployment. The `Dock
    ```
 4. Open a browser and access the application at:
    ```
-http://localhost:8501
+   http://localhost:8501
    ```
 
 ---
@@ -73,8 +74,17 @@ http://localhost:8501
 ## 🏆 Conclusion
 This project showcases a **complete pipeline** for deploying a **machine learning model** using **Streamlit and Docker**. It provides an intuitive way for users to interact with the model, and containerization ensures easy portability and deployment.
 
-📌 **Author**: Tarak Katoch  
-📌 **License**: MIT  
-📌 **Contributions**: Feel free to fork and contribute!
+---
+
+## 📌 Author
+**Tarak Katoch**
+
+## 📜 License
+**MIT**
+
+## 🤝 Contributions
+Feel free to fork and contribute!
+
+---
 
 🎉 **Happy Coding!** 🚀
