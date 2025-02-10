@@ -79,12 +79,6 @@ This project showcases a **complete pipeline** for deploying a **machine learnin
 ## 📌 Author
 **Tarak Katoch**
 
-## 📜 License
-**MIT**
-
-## 🤝 Contributions
-Feel free to fork and contribute!
-
 ---
 
 🎉 **Happy Coding!** 🚀
