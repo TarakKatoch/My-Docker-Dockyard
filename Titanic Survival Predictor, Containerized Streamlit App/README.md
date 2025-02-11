@@ -1,4 +1,4 @@
-# 🚢 **Titanic Survival Prediction Model with Docker**
+# 🚢 **Titanic Survival Predictor: Containerized Streamlit App**
 
 ## 📌 **Project Overview**
 The **Titanic Survival Prediction Model** is a machine learning application that predicts whether a passenger would have survived the Titanic disaster based on various input features. This project is built using **Python**, **scikit-learn**, **pandas**, and **Streamlit** for a user-friendly web interface. To ensure seamless deployment and portability, **Docker** is used to containerize the application.
@@ -25,7 +25,7 @@ Titanic-Prediction-Model/
 
 ---
 
-## 🔬 **Model Training & `.pkl` File**
+## 🔬 **Model Training (`titanic_model.py`)**
 The model is trained using a **Random Forest Classifier** from `scikit-learn`, based on Titanic dataset features. After training, the model is saved as **`titanic_model.pkl`** using `joblib`, ensuring efficient storage and easy loading in the web application.
 
 ### **Steps in `titanic_model.py`**
