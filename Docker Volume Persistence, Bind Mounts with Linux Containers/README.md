@@ -10,7 +10,7 @@ This experiment demonstrates how to use Docker **bind mounts** with a **Linux co
 ### 🏗 Step 1: Running a Container with a Bind Mount
 You executed:
 ```sh
-docker run -d --name alpine_with_bind_mount -v C:\Users\asus\docker_data:/data alpine:latest sh
+docker run -dit --name alpine_with_bind_mount -v C:\Users\asus\docker_data:/data alpine:latest sh
 ```
 #### 🔍 What Happened?
 - Since `alpine:latest` was not found locally, Docker pulled it from the official repository.
@@ -23,7 +23,7 @@ docker run -d --name alpine_with_bind_mount -v C:\Users\asus\docker_data:/data a
 ### 📄 Step 2: Creating a File Inside the Bind Mount
 Inside the container, you created a file:
 ```sh
-docker exec alpine_with_bind_mount sh -c "echo 'Hello, Tarak!' > /data/testfile.txt"
+docker exec -it alpine_with_bind_mount sh -c "echo 'Hello, Tarak!' > /data/testfile.txt"
 ```
 #### 🔍 What Happened?
 - The command executed a shell inside the running container.
@@ -35,7 +35,7 @@ docker exec alpine_with_bind_mount sh -c "echo 'Hello, Tarak!' > /data/testfile.
 ### ✅ Step 3: Verifying the File Exists
 To check the contents:
 ```sh
-docker exec alpine_with_bind_mount cat /data/testfile.txt
+docker exec -it alpine_with_bind_mount sh -c "cat /data/testfile.txt"
 ```
 #### 📌 Output:
 ```
@@ -59,7 +59,7 @@ docker rm -f alpine_with_bind_mount
 ### 🔄 Step 5: Creating a New Container with the Same Bind Mount
 You started a new container:
 ```sh
-docker run -d --name new_alpine -v C:\Users\asus\docker_data:/data alpine:latest sh
+docker run -dit --name new_alpine -v C:\Users\asus\docker_data:/data alpine sh
 ```
 #### 🔍 What Happened?
 - A new container named **new_alpine** was created.
@@ -70,7 +70,7 @@ docker run -d --name new_alpine -v C:\Users\asus\docker_data:/data alpine:latest
 ### 🔎 Step 6: Verifying File Persistence
 Inside the new container, you checked if `testfile.txt` still exists:
 ```sh
-docker exec new_alpine cat /data/testfile.txt
+docker exec -it new_alpine sh -c "cat /data/testfile.txt"
 ```
 #### 📌 Output:
 ```
