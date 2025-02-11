@@ -3,7 +3,20 @@
 ## 📌 Prerequisites
 - ✅ Install Docker on your system.
 - ✅ Ensure Docker is running.
-- ✅ Create an SQL initialization script (e.g., `init.sql`) with database and table definitions.
+- ✅ Create an SQL initialization script (e.g., `Tarakk_demo.sql`) with database and table definitions.
+
+---
+
+## 📂 Project Directory Structure
+Ensure your project directory is organized as follows:
+
+```
+project-directory/
+│── Dockerfile
+│── Tarakk_demo.sql
+```
+
+This structure keeps all necessary files in one place for an efficient setup.
 
 ---
 
@@ -15,7 +28,7 @@ Create a `Dockerfile` in your project directory:
 FROM mysql:latest
 
 # 📂 Copy initialization script to the container
-COPY init.sql /docker-entrypoint-initdb.d/
+COPY Tarakk_demo.sql /docker-entrypoint-initdb.d/
 
 # 🔥 Expose MySQL port
 EXPOSE 3306
