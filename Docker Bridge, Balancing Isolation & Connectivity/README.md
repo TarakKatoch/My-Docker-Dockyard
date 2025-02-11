@@ -33,11 +33,7 @@ To demonstrate, we create a **custom bridge network** called `tarak-bridge` and 
 
 ## 🔧 1. Creating a Custom Bridge Network
 ```bash
-docker network create \  
---driver bridge \  
---subnet 172.20.0.0/16 \  
---ip-range 172.20.240.0/20 \  
-tarak-bridge
+docker network create --driver bridge --subnet 172.20.0.0/16 --ip-range 172.20.240.0/20 tarak-bridge
 ```
 ### 🔍 Explanation:
 - `--driver bridge` → Uses the default **bridge network mode**.
@@ -49,11 +45,11 @@ tarak-bridge
 ## 🚀 2. Running Containers in the Custom Network
 ### Running **Redis Container** (`tarak-database`)
 ```bash
-docker run -d --name tarak-database --network tarak-bridge redis
+docker run -itd --net=tarak-bridge --name=tarak-database redis
 ```
 ### Running **BusyBox Container** (`tarak-server-A`)
 ```bash
-docker run -it --rm --name tarak-server-A --network tarak-bridge busybox
+docker run -itd --net=tara-bridge --name=tarak-server-A busybox
 ```
 
 ### 📌 Check Container IPs
@@ -84,11 +80,11 @@ docker exec -it tarak-server-A ping 172.20.240.1
 ## 🚧 4. Demonstrating Network Isolation with a Third Container
 We add another container (`tarak-server-B`) on the **default bridge network**.
 ```bash
-docker run -it --rm --name tarak-server-B busybox
+docker run -itd --name=tarak-server-B busybox
 ```
 ### 📌 Get IP of `tarak-server-B`
 ```bash
-docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' tarak-server-B
+docker inspect -format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' tarak-server-B
 ```
 (Example IP: `172.17.0.2`)
 
