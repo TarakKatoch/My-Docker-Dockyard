@@ -25,7 +25,7 @@ Titanic-Prediction-Model/
 
 ---
 
-## 🔬 **Model Training (`titanic_model.py`)**
+## 🤖 **Model Training (`titanic_model.py`)**
 The model is trained using a **Random Forest Classifier** from `scikit-learn`, based on Titanic dataset features. After training, the model is saved as **`titanic_model.pkl`** using `joblib`, ensuring efficient storage and easy loading in the web application.
 
 ### **Steps in `titanic_model.py`**
