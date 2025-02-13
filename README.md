@@ -1,4 +1,4 @@
-# 🚢 My-Docker-Dockyard ⚓
+# 🐳 My-Docker-Dockyard ⚓
 
 Welcome to **My-Docker-Dockyard**! 🌊 This repository is my personal **dockyard of containerized wonders**, where I experiment with Docker to create powerful, scalable, and efficient applications. 🛠️💡 Below is a summary of each project, along with a direct link to explore more. 🏗️🚀
 
