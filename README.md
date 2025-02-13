@@ -20,7 +20,7 @@ Welcome to **My-Docker-Dockyard**! 🌊 This repository is my personal **dockyar
 💾 **Mission:** Ensure **data persistence** and prevent loss by using **Docker volumes and bind mounts**.
 📌 **Key Focus:** Storage management, Linux containers, and backups.
 
-### 5. [🌉 Docker Bridge, Balancing Isolation & Connectivity](Docker%20Bridge%2C%20Balancing%20Isolation%20%26%20Connectivity)
+### 5. [🔗 Docker Bridge, Balancing Isolation & Connectivity](Docker%20Bridge%2C%20Balancing%20Isolation%20%26%20Connectivity)
 🔌 **Mission:** Master **Docker bridge networks** to create a balance between **container isolation and seamless connectivity**.
 📌 **Key Focus:** Multi-container communication, secure networking, and efficiency.
 
