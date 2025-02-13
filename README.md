@@ -34,8 +34,8 @@ Welcome to **My-Docker-Dockyard**! 🌊 This repository is my personal **dockyar
 
 📌 **Key Focus:** Full-stack integration, database handling, and scalable applications.
 
-### 7. [📈 Evidently AI Sets Sail in Docker](Evidently%20AI%20Sets%20Sail%20in%20Docker)
-🧠 **Mission:** Run **Evidently AI** inside a Docker container to analyze ML model performance and detect data drift.
+### 7. [🧠 Evidently AI Sets Sail in Docker](Evidently%20AI%20Sets%20Sail%20in%20Docker)
+📈 **Mission:** Run **Evidently AI** inside a Docker container to analyze ML model performance and detect data drift.
 
 📌 **Key Focus:** AI model monitoring, automation, and analytics.
 
