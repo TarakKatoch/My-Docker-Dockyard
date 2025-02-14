@@ -5,7 +5,7 @@ Welcome to **My-Docker-Dockyard**! 🌊 This repository is my personal **dockyar
 ## 🚀 Projects Aboard 🏗️
 
 ### 1. [Dockerized Streamlit Development Environment 📊](Dockerized%20Streamlit%20Development%20Environment)
--**Mission:** Build a **containerized Streamlit environment** for smooth and efficient data visualization.
+- **Mission:** Build a **containerized Streamlit environment** for smooth and efficient data visualization.
 -**Key Focus:** Web app deployment, interactive UI, and container efficiency.
 
 ### 2. [Titanic Survival Predictor, Containerized Streamlit App 🚢](Titanic%20Survival%20Predictor%2C%20Containerized%20Streamlit%20App)
