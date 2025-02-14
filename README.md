@@ -34,9 +34,9 @@ Welcome to **My-Docker-Dockyard**! 🌊 This repository is my personal **dockyar
 
 ## 🌊 Why This Dockyard? ⚓
 This repository is my **adventure in containerization**, where I explore the depths of Docker’s potential! 🛠️💡
-🔹 **Goal:** To master **containerized applications, networking, storage, and deployments** in real-world scenarios.
-🔹 **Approach:** Hands-on projects that focus on **modular, scalable, and production-ready** implementations.
-🔹 **Future Plans:** More projects, Kubernetes experiments, and cloud-based deployments! ☁️🚀
+- **Goal:** To master **containerized applications, networking, storage, and deployments** in real-world scenarios.
+- **Approach:** Hands-on projects that focus on **modular, scalable, and production-ready** implementations.
+- **Future Plans:** More projects, Kubernetes experiments, and cloud-based deployments! ☁️🚀
 
 ---
 
