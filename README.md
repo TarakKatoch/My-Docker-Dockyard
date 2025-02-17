@@ -1,8 +1,8 @@
 # 🐳 My-Docker-Dockyard ⚓
 
-Welcome to **My-Docker-Dockyard**! 🌊 This repository is my personal **dockyard of containerized wonders**, where I experiment with Docker to create powerful, scalable, and efficient applications. 🛠️💡 Below is a summary of each project, along with a direct link to explore more. 🏗️🚀
+Welcome to **My-Docker-Dockyard**! 🌊 This repository is my personal **dockyard of containerized wonders**, where I experiment with Docker to create powerful, scalable, and efficient applications. 🛠️💡 Below is a summary of each project, along with a direct link to explore more. 🚀
 
-## 🚀 Projects Aboard 🏗️
+## Concepts Aboard: Exploring Docker and Containerization 🚢
 
 ### 1. [Dockerized Streamlit Development Environment 📊](Dockerized%20Streamlit%20Development%20Environment)
 - **Goal:** Build a **containerized Streamlit environment** for smooth and efficient data visualization.
@@ -44,4 +44,4 @@ This repository is my **adventure in containerization**, where I explore the dep
 
 ---
 
-🌟 **Stay tuned for more innovations from the dockyard!** 🏗️⚓🚀
+🌟 **Stay tuned for more innovations from the dockyard!** ⚓🚀
