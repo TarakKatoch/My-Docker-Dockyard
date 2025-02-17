@@ -32,7 +32,7 @@ Welcome to **My-Docker-Dockyard**! 🌊 This repository is my personal **dockyar
 - **Goal:** Run **Evidently AI** inside a Docker container to analyze ML model performance and detect data drift.
 - **Key Focus:** AI model monitoring, automation, and analytics.
 
-### 8. [Minikube with Docker on Windows 🚀](Minikube%20with%20Docker%20on%20Windows)
+### 8. [Minikube with Docker on Windows ☸️](Minikube%20with%20Docker%20on%20Windows)
 - **Goal:** Set up **Minikube with Docker on Windows** for running Kubernetes clusters locally in a Docker container.
 - **Key Focus:** Kubernetes management, local cluster setup, and Docker integration on Windows.
 
