@@ -1,6 +1,6 @@
 # Minikube with Docker on Windows ☸️🚀
 
-![Minikube Logo](https://minikube.sigs.k8s.io/docs/images/minikube-logo.svg)
+![Minikube Logo](https://raw.githubusercontent.com/TarakKatoch/My-Docker-Dockyard/54505203108590859cc273cd9a1c18bb9f018e76/Minikube%20with%20Docker%20on%20Windows/assets/logo.png)
 
 
 You can run **Minikube** with Docker instead of Hyper-V or VirtualBox. This is the easiest way to use **Minikube** on Windows Home, Pro, or Enterprise.
