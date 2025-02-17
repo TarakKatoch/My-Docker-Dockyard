@@ -42,7 +42,7 @@ Minikube can run Kubernetes inside a Docker container, so install Docker Desktop
 
 ### 2. Install Minikube 📦
 
-Download and install Minikube:
+To download and install Minikube, open CMD or PowerShell as Administrator and run the following command:
 ```bash
 choco install minikube
 ```
