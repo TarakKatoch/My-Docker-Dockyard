@@ -4,11 +4,7 @@
   <img src="https://raw.githubusercontent.com/TarakKatoch/My-Docker-Dockyard/54505203108590859cc273cd9a1c18bb9f018e76/Minikube%20with%20Docker%20on%20Windows/assets/logo.png" alt="Minikube Logo" width="200" />
 </p>
 
-You can run **Minikube** with Docker instead of Hyper-V or VirtualBox. This is the easiest way to use **Minikube** on Windows Home, Pro, or Enterprise.
-
----
-
-## What is Minikube? 🖥️
+## What is Minikube? 
 
 **Minikube** is a tool that helps you run a local Kubernetes cluster on your machine. It's perfect for developers who want to experiment with Kubernetes without setting up a large cloud infrastructure. Minikube provides a simple way to start a Kubernetes cluster on a local machine, and it works with various drivers like Docker, VirtualBox, and Hyper-V.
 
