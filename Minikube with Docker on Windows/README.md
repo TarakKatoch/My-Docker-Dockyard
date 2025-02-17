@@ -62,7 +62,7 @@ kubectl version --client
 
 ## ✅ Step 2: Start Minikube with Docker Driver 🐳
 
-Now, start Minikube using Docker as the driver. 🏃‍♂️
+Now, start Minikube using Docker as the driver. Ensure that your Docker Engine (Docker Desktop) is running in the background.
 
 ### 1. Start Minikube
 ```bash
