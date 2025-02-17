@@ -1,4 +1,4 @@
-# Minikube with Docker on Windows 🚀
+# Minikube with Docker on Windows ☸️🚀
 
 You can run **Minikube** with Docker instead of Hyper-V or VirtualBox. This is the easiest way to use **Minikube** on Windows Home, Pro, or Enterprise.
 
@@ -12,7 +12,7 @@ Minikube makes Kubernetes accessible for local development, testing, and experim
 
 ---
 
-## What is Kubernetes? 🌐
+## What is Kubernetes? ☸️
 
 **Kubernetes** is an open-source platform for automating the deployment, scaling, and management of containerized applications. It orchestrates and manages containers (such as those created with Docker) to ensure that applications run reliably and efficiently, whether in a development, test, or production environment.
 
