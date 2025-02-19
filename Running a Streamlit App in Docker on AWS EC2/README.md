@@ -14,15 +14,15 @@ This guide provides a step-by-step approach to deploying a Streamlit app inside 
 
 ## 📖 Table of Contents
 
-1. [Setting Up a VPC, Subnet, Route Table, and Internet Gateway] 
-2. [Launching and Configuring an EC2 Instance] 
-3. [Connecting to EC2] 
-4. [Setting Permissions for the PEM Key] 
-5. [Installing and Configuring Docker] 
-6. [Copying Project Files to EC2] 
-7. [Building and Running the Docker Container] 
-8. [Accessing the Streamlit App] 
-9. [Managing the Docker Container]
+1. Setting Up a VPC, Subnet, Route Table, and Internet Gateway
+2. Launching and Configuring an EC2 Instance
+3. Connecting to EC2 
+4. Setting Permissions for the PEM Key 
+5. Installing and Configuring Docker 
+6. Copying Project Files to EC2
+7. Building and Running the Docker Container
+8. Accessing the Streamlit App 
+9. Managing the Docker Container
 
 ---
 
