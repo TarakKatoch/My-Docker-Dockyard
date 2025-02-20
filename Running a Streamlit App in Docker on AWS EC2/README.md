@@ -84,7 +84,7 @@ Choose **EC2 Instance Connect** → Click **Connect**
 ```bash
 mv /path/to/your-key.pem ~/your-work-directory/
 ```
-or you can also copy-paste it in your work-directory
+or you can directly copy-paste it in your work-directory
 
 2.	Set the correct permissions(Run this command in Git Bash):
 ```bash
