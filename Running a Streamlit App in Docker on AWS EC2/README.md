@@ -73,8 +73,8 @@ Go to VPC Dashboard → Subnets → Create Subnet
 ## 3️⃣ Connecting to EC2
 
 🔹 **Via EC2 Instance Connect**  
-Go to EC2 Dashboard → Select Instance → Click **Connect**  
-Choose **EC2 Instance Connect** → Click **Connect**
+    Go to EC2 Dashboard → Select Instance → Click **Connect**  
+    Choose **EC2 Instance Connect** → Click **Connect**
 
 ---
 
