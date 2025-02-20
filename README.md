@@ -36,6 +36,10 @@ Welcome to **My-Docker-Dockyard**! 🌊 This repository is my personal **dockyar
 - **Goal:** Set up **Minikube with Docker on Windows** for running Kubernetes clusters locally in a Docker container.
 - **Key Focus:** Kubernetes management, local cluster setup, and Docker integration on Windows.
 
+### 9. [Running a Streamlit App in Docker on AWS EC2 ☁️](Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2)
+- **Goal:** Deploy a **Streamlit app** using **Docker on an AWS EC2 instance** for scalability and accessibility.
+- **Key Focus:** Dockerized application deployment, AWS hosting, and container orchestration.
+
 ## 🌊 Why This Dockyard? ⚓
 This repository is my **adventure in containerization**, where I explore the depths of Docker’s potential! 🛠️💡
 - **Goal:** To master **containerized applications, networking, storage, and deployments** in real-world scenarios.
