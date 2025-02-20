@@ -104,6 +104,12 @@ sudo yum install -y docker
 sudo systemctl enable docker
 sudo systemctl start docker
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TarakKatoch/My-Docker-Dockyard/832b5736931414654f7f86f829d835fd54015c7f/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/assets/Screenshot%202025-02-20%20031258.png" alt="Streamlit App Screenshot">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TarakKatoch/My-Docker-Dockyard/832b5736931414654f7f86f829d835fd54015c7f/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/assets/Screenshot%202025-02-20%20031336.png" alt="Streamlit App Screenshot">
+</p>
 
 ---
 
@@ -114,6 +120,9 @@ From your local machine, transfer files using SCP(Run this command in Git Bash):
 ```bash
 scp -i your-key.pem app.py Dockerfile requirements.txt mushrooms.csv ec2-user@your-ec2-public-ip:/home/ec2-user/
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TarakKatoch/My-Docker-Dockyard/832b5736931414654f7f86f829d835fd54015c7f/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/assets/Screenshot%202025-02-20%20031902.png" alt="Streamlit App Screenshot">
+</p>
 
 ---
 
@@ -136,6 +145,9 @@ sudo docker build -t streamlit-app .
 ```bash
 sudo docker run -d -p 8501:8501 --name streamlit_container streamlit-app
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TarakKatoch/My-Docker-Dockyard/832b5736931414654f7f86f829d835fd54015c7f/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/assets/Screenshot%202025-02-20%20032050.png" alt="Streamlit App Screenshot">
+</p>
 
 ---
 
@@ -146,6 +158,9 @@ sudo docker run -d -p 8501:8501 --name streamlit_container streamlit-app
 ```text
 http://your-ec2-public-ip:8501
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TarakKatoch/My-Docker-Dockyard/832b5736931414654f7f86f829d835fd54015c7f/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/assets/Screenshot%202025-02-20%20032157.png" alt="Streamlit App Screenshot">
+</p>
 
 ---
 
