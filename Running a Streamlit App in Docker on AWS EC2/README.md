@@ -4,10 +4,15 @@
 This guide provides a step-by-step approach to deploying a Streamlit app inside a Docker container on an AWS EC2 instance with a custom network setup. It covers:
 
 ✅ Setting up a VPC, Subnet, Route Table, and Internet Gateway
+
 ✅ Launching and configuring an EC2 instance
+
 ✅ Installing and configuring Docker
+
 ✅ Transferring project files to EC2
+
 ✅ Running the Streamlit app inside a Docker container
+
 ✅ Managing the Docker container
 
 ---
