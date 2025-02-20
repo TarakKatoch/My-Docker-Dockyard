@@ -84,11 +84,15 @@ Choose **EC2 Instance Connect** → Click **Connect**
 ```bash
 mv /path/to/your-key.pem ~/your-work-directory/
 ```
+or you can also copy-paste it in your work-directory
 
 2.	Set the correct permissions(Run this command in Git Bash):
 ```bash
 chmod 600 your-key.pem
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TarakKatoch/My-Docker-Dockyard/ba5e5c2e19d6d2012c8de8f17f23902c817805da/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/assets/Screenshot%202025-02-20%20031810.png" alt="Streamlit App Screenshot">
+</p>
 
 ---
 
