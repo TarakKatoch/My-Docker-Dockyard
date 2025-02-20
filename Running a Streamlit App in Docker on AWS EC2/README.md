@@ -73,15 +73,20 @@ Go to VPC Dashboard → Subnets → Create Subnet
 ## 3️⃣ Connecting to EC2
 
 🔹 **Via EC2 Instance Connect**  
-    Go to EC2 Dashboard → Select Instance → Click **Connect**  
-    Choose **EC2 Instance Connect** → Click **Connect**
+Go to EC2 Dashboard → Select Instance → Click **Connect**  
+Choose **EC2 Instance Connect** → Click **Connect**
 
 ---
 
 ## 4️⃣ Setting Permissions for the PEM Key
 
+1.	Move your .pem key to your work directory:
 ```bash
 mv /path/to/your-key.pem ~/your-work-directory/
+```
+
+2.	Set the correct permissions(Run this command in Git Bash):
+```bash
 chmod 600 your-key.pem
 ```
 
@@ -100,10 +105,10 @@ sudo systemctl start docker
 
 ## 6️⃣ Copying Project Files to EC2
 
-From your local machine, transfer files using SCP:
+From your local machine, transfer files using SCP(Run this command in Git Bash):
 
 ```bash
-scp -i your-key.pem app.py Dockerfile requirements.txt mushroom.cv ec2-user@your-ec2-public-ip:/home/ec2-user/
+scp -i your-key.pem app.py Dockerfile requirements.txt mushrooms.csv ec2-user@your-ec2-public-ip:/home/ec2-user/
 ```
 
 ---
