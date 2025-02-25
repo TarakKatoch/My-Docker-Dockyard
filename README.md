@@ -47,8 +47,9 @@ This repository is my **adventure in containerization**, where I explore the dep
 - **Future Plans:** More projects, Kubernetes experiments, and cloud-based deployments! ☁️🚀
 
 ---
-<p align="center">
-  <img src="https://raw.githubusercontent.com/TarakKatoch/My-Docker-Dockyard/f8ed42598d083fe10a9aaf622a3568cf257be755/Minikube%20with%20Docker%20on%20Windows/assets/thank%20you.png" alt="Thank You" width="500">
-</p>
 
 🌟 **Stay tuned for more innovations from the dockyard!** ⚓🚀
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TarakKatoch/My-Docker-Dockyard/f8ed42598d083fe10a9aaf622a3568cf257be755/Minikube%20with%20Docker%20on%20Windows/assets/thank%20you.png" alt="Thank You" width="350">
+</p>
