@@ -1,4 +1,4 @@
-# Microservices Architecture with Docker Swarm
+# Microservices Architecture with Docker Swarm ⚓
 
 This guide explains how to deploy a microservices architecture using Docker Swarm with an API Gateway and a Backend Service.
 
