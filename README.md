@@ -36,6 +36,10 @@ Welcome to **My-Docker-Dockyard**! 🌊 This repository is my personal **dockyar
 - **Goal:** Set up **Minikube with Docker on Windows** for running Kubernetes clusters locally in a Docker container.
 - **Key Focus:** Kubernetes management, local cluster setup, and Docker integration on Windows.
 
+### 9. [Microservices Architecture using Docker Swarm 🏗️](Microservices%20Architecture%20using%20Docker%20Swarm)
+- **Goal:** Deploy a **microservices-based application** using Docker Swarm for **scalability and reliability**.
+- **Key Focus:** Load balancing, service discovery, and distributed applications.
+
 ## 🌊 Why This Dockyard? ⚓
 This repository is my **adventure in containerization**, where I explore the depths of Docker’s potential! 🛠️💡
 - **Goal:** To master **containerized applications, networking, storage, and deployments** in real-world scenarios.
