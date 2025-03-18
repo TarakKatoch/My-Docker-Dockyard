@@ -115,7 +115,6 @@ chmod 600 your-key.pem
 <p align="center">
   <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/1.jpg" alt="Streamlit on AWS EC2" />
 </p>
----
 
 ## 5️⃣ Installing and Configuring Docker on EC2
 
@@ -139,7 +138,6 @@ sudo systemctl start docker
 <p align="center">
   <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/3.jpg" alt="Streamlit on AWS EC2 - Step 3" />
 </p>
----
 
 ## 6️⃣ Copying Project Files to EC2
 
@@ -150,13 +148,12 @@ scp -i your-key.pem app.py Dockerfile requirements.txt mushroom.cv ec2-user@your
 <p align="center">
   <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/4.jpg" alt="Streamlit on AWS EC2 - Step 4" />
 </p>
----
 
 ## 7️⃣ Building and Running the Docker Container
 
 Navigate to the directory:
 ```sh
-cd /home/ec2-user
+cd /home/ec2-user/
 ```
 Build the Docker image:
 ```sh
@@ -169,7 +166,6 @@ sudo docker run -d -p 8501:8501 --name streamlit_container streamlit-app
 <p align="center">
   <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/5.jpg" alt="Streamlit on AWS EC2 - Step 5" />
 </p>
----
 
 ## 8️⃣ Accessing the Streamlit App
 
@@ -182,7 +178,6 @@ The Streamlit app should now be accessible.
 <p align="center">
   <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/6.jpg" alt="Streamlit on AWS EC2 - Step 6" />
 </p>
----
 
 ## 9️⃣ Managing the Docker Container
 
