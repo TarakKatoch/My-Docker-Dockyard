@@ -40,6 +40,10 @@ Welcome to **My-Docker-Dockyard**! 🌊 This repository is my personal **dockyar
 - **Goal:** Deploy a **microservices-based application** using Docker Swarm for **scalability and reliability**.
 - **Key Focus:** Load balancing, service discovery, and distributed applications.
 
+### 10. [Running a Streamlit App in Docker on AWS EC2 ☁️](Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2)
+- **Goal:** Deploy a **Streamlit application** inside a Docker container on an **AWS EC2 instance**.
+- **Key Focus:** Cloud deployment, networking, and containerized application hosting.
+
 ## 🌊 Why This Dockyard? ⚓
 This repository is my **adventure in containerization**, where I explore the depths of Docker’s potential! 🛠️💡
 - **Goal:** To master **containerized applications, networking, storage, and deployments** in real-world scenarios.
