@@ -1,4 +1,4 @@
-# 🚀 Deployment Manual: Running a Streamlit App in Docker on AWS EC2  
+# 🚀 Running a Streamlit App in Docker on AWS EC2  
 
 ## 📜 Table of Contents
 
