@@ -15,6 +15,8 @@ docker --version
 ```
 If not installed, download it from Docker's official site and install it.
 
+**Note:** Docker Desktop should be running in the background for Docker Swarm to work properly.
+
 ### 1.2 Initialize Docker Swarm
 Start Docker Swarm:
 ```sh
