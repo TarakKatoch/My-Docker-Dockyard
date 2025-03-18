@@ -2,6 +2,10 @@
 
 This guide explains how to deploy a microservices architecture using Docker Swarm with an API Gateway and a Backend Service.
 
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/49801b8e4059c6baa618ee6de3744903b58bc7d7/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20021120.png" alt="Project Screenshot" width="600" />
+</p>
+
 ## 🚀 Step 1: Install Docker & Initialize Docker Swarm
 
 ### 1.1 Install Docker
