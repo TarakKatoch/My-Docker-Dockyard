@@ -97,7 +97,11 @@ CMD ["python", "api_gateway.py"]
 ## 📦 Step 3: Build Docker Images
 ```sh
 docker build -t backend-service ./backend-service
+```
+```sh
 docker build -t api-gateway ./api-gateway
+```
+```sh
 docker images
 ```
 
