@@ -207,8 +207,11 @@ sudo docker start streamlit_container
 
 This documentation provides a step-by-step guide to:
 ✅ Set up a **custom VPC, subnet, and Internet Gateway**
+
 ✅ Launch an **EC2 instance** and enable **IPv4 assignment**
+
 ✅ Install **Docker** and deploy the **Streamlit app** in a Docker container
+
 ✅ Access the app via a **public IP**
 
 This setup ensures **scalability, security, and reliability** for your project. 🚀
