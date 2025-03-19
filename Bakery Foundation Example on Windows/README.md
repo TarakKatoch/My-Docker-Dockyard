@@ -220,6 +220,7 @@ python3.9 --version
 ```
 Python 3.9.5
 ```
+
 ## Default Ubuntu Python Version
 
 - The default Python version that comes pre-installed in **Ubuntu 20.04** is **Python 3.8.10**.
@@ -234,8 +235,6 @@ Python 3.9.5
   ```
   Python 3.8.10
   ```
-
----
 
 ## Manually Installed Python 3.9
 
@@ -258,8 +257,6 @@ Python 3.9.5
   Python 3.9.5
   ```
 
----
-
 ## No `python` Command by Default
 
 - Running:
@@ -275,8 +272,6 @@ Python 3.9.5
   ```
 
 - This is because Ubuntu only includes **python3**, not **python**.
-
----
 
 ## Why Ubuntu Uses `python3` Instead of `python`
 
