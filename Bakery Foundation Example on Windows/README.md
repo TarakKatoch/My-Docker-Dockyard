@@ -165,6 +165,10 @@ packer validate bakery.pkr.hcl
 
 ✅ Expected Output: The configuration is valid.
 
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011135.png?raw=true" alt="Screenshot">
+</p>
+
 ### 3.2 Build the Machine Image
 
 Run the following command:
@@ -179,12 +183,23 @@ This will:
 - Convert it into an **Amazon Machine Image (AMI)**.
 - Delete the temporary instance.
 
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011212.png?raw=true" alt="Screenshot">
+</p>
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011235.png?raw=true" alt="Screenshot">
+</p>
+
 ## Step 4: Deploy and Test the AMI
 
 ### 4.1 Find the AMI  
 1. Log in to **AWS Console**.  
 2. Navigate to **EC2 → AMIs** (Set the region you used when creating the AMI).  
 3. Find the AMI named: bakery-foundation-python39-timestamp
+
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011612.png?raw=true" alt="Screenshot">
+</p>
 
 ### 4.2 Launch an EC2 Instance with Your AMI  
 
@@ -195,7 +210,17 @@ This will:
    - **Instance Type**: `t2.micro` (or higher, based on your needs).  
    - **Key Pair**: Use an existing key or create a new one.  
    - **Security Group**: Allow **SSH (port 22)** and other required ports.  
-5. Click **Launch**! 🚀  
+5. Click **Launch**! 🚀
+
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011811.png?raw=true" alt="Screenshot">
+</p>
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011842.png?raw=true" alt="Screenshot">
+</p>
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20012354.png?raw=true" alt="Screenshot">
+</p>
 
 ### 4.3 Connect to the Instance  
 
@@ -210,6 +235,10 @@ ssh -i "C:\path\to\your-key.pem" ubuntu@your-instance-ip
 
 ✅ You are now logged into your **EC2 instance**! 🎉  
 
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20012911.png?raw=true" alt="Screenshot">
+</p>
+
 ### 4.4 Verify Python Installation  
 
 Once inside the instance, run:
@@ -220,9 +249,9 @@ python3.9 --version
 
 ✅ Expected Output:
 
-```
-Python 3.9.5
-```
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20012920.png?raw=true" alt="Screenshot">
+</p>
 
 ## Default Ubuntu Python Version
 
