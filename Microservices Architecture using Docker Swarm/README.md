@@ -175,6 +175,8 @@ API Gateway: rajput_tarakk
 ## 🔄 Step 8: Scaling the Services
 ```sh
 docker service scale my_microservices_backend-service=5
+```
+```sh
 docker stack services my_microservices
 ```
 
@@ -182,12 +184,16 @@ docker stack services my_microservices
 Rebuild and update the backend service:
 ```sh
 docker build -t backend-service ./backend-service
+```
+```sh
 docker service update --image backend-service:latest my_microservices_backend-service
 ```
 
 ## 🛑 Step 10: Remove the Stack
 ```sh
 docker stack rm my_microservices
+```
+```sh
 docker swarm leave --force
 ```
 
