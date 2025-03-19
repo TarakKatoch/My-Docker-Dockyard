@@ -235,10 +235,6 @@ ssh -i "C:\path\to\your-key.pem" ubuntu@your-instance-ip
 
 ✅ You are now logged into your **EC2 instance**! 🎉  
 
-<p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20012911.png?raw=true" alt="Screenshot">
-</p>
-
 ### 4.4 Verify Python Installation  
 
 Once inside the instance, run:
@@ -250,7 +246,7 @@ python3.9 --version
 ✅ Expected Output:
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20012920.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/614806e3f3f17ba56c9270b451a777afbcba2451/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20030112.png?raw=true" alt="Screenshot">
 </p>
 
 ## Default Ubuntu Python Version
