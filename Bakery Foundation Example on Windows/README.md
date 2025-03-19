@@ -125,6 +125,9 @@ Run the following AWS CLI command to get the latest Ubuntu AMI:
 ```powershell
 aws ec2 describe-images --owners 099720109477 --filters "Name=name,Values=ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*" --query "Images | sort_by(@, &CreationDate)[-1].ImageId" --output text
 ```
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/6d5d87e85a40602d2a417ef341625bd7b6d38607/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011116.png?raw=true" alt="Screenshot">
+</p>
 
 ✅ Update `bakery.pkr.hcl` by replacing the **`source_ami`** with the new AMI ID:
 
