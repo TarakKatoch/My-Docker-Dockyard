@@ -44,6 +44,12 @@ Welcome to **My-Docker-Dockyard**! 🌊 This repository is my personal **dockyar
 - **Goal:** Deploy a **Streamlit application** inside a Docker container on an **AWS EC2 instance**.
 - **Key Focus:** Cloud deployment, networking, and containerized application hosting.
 
+### 11. [Bakery Foundation Example on Windows 🍞](Bakery%20Foundation%20Example%20on%20Windows)
+- **Goal:** Set up **Packer** on Windows to create a **custom Amazon Machine Image (AMI)** with Python 3.9.
+- **Key Focus:** Image automation, AWS infrastructure provisioning, and hands-on cloud deployment.
+
+---
+
 ## 🌊 Why This Dockyard? ⚓
 This repository is my **adventure in containerization**, where I explore the depths of Docker’s potential! 🛠️💡
 - **Goal:** To master **containerized applications, networking, storage, and deployments** in real-world scenarios.
