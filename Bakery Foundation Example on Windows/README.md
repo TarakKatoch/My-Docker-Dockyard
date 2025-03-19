@@ -1,4 +1,4 @@
-# Bakery Foundation Example on Windows
+# Bakery Foundation Example on Windows 🎂
 
 ## Overview
 
