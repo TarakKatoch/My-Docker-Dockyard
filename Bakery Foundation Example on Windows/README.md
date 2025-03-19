@@ -314,11 +314,8 @@ python3.9 --version
 
 - If `python` was included by default, **scripts written for Python 2 might break** on newer systems.
 - To enforce clarity, **Ubuntu only includes `python3`**, and `python` is **not available by default**.
-- Running `python` without installing it gives:
-
-  ```
-  Command 'python' not found
-  ```
+- Running `python` without installing it gives: Command 'python' not found
+  
 
 ## Conclusion  
 
