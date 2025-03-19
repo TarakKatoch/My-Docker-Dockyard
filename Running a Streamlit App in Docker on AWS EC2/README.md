@@ -206,6 +206,7 @@ sudo docker start streamlit_container
 ## 🎯 Conclusion
 
 This documentation provides a step-by-step guide to:
+
 ✅ Set up a **custom VPC, subnet, and Internet Gateway**
 
 ✅ Launch an **EC2 instance** and enable **IPv4 assignment**
