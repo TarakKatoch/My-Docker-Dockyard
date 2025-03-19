@@ -43,7 +43,7 @@ packer --version
 
 ✅ If successful, the **Packer version** will be displayed.
 
-### 1.2 Install AWS CLI (5 minutes)
+### 1.2 Install AWS CLI
 
 #### Step 1: Download AWS CLI  
 1. Go to the **[AWS CLI Download Page](https://aws.amazon.com/cli/)**.  
@@ -58,9 +58,8 @@ aws --version
 ```
 
 ✅ If successful, it should display something like:  
-```
+
 aws-cli/2.x.x Windows/10
-```
 
 ### 1.3 Configure AWS CLI (5 minutes)  
 
