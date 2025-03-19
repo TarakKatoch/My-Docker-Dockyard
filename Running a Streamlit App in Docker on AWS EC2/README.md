@@ -126,15 +126,18 @@ Install Docker:
 ```sh
 sudo yum install -y docker
 ```
-Enable and start Docker:
-```sh
-sudo systemctl enable docker
-sudo systemctl start docker
-```
 <p align="center">
   <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/2.jpg" alt="Streamlit on AWS EC2 - Step 2" />
 </p>
+Enable and start Docker:
 
+```sh
+sudo systemctl enable docker
+```
+
+```sh
+sudo systemctl start docker
+```
 <p align="center">
   <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/b17f8d11d876569f5eda9920304a091057591d59/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/3.jpg" alt="Streamlit on AWS EC2 - Step 3" />
 </p>
