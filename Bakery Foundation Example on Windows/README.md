@@ -57,9 +57,7 @@ packer --version
 aws --version
 ```
 
-✅ If successful, it should display something like:  
-
-aws-cli/2.x.x Windows/10
+✅ If successful, it should display something like: aws-cli/2.x.x Windows/10
 
 ### 1.3 Configure AWS CLI (5 minutes)  
 
