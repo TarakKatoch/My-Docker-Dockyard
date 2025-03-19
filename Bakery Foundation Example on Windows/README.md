@@ -118,7 +118,7 @@ build {
 
 3. Save the file as **`bakery.pkr.hcl`** in `C:\packer`.
 
-### 2.2 Find a Valid Ubuntu AMI-The AMI ID varies by AWS region, so we need to select the correct one
+### 2.2 Find a Valid Ubuntu AMI (The AMI ID varies by AWS region, so we need to select the correct one)
 
 Run the following AWS CLI command to get the latest Ubuntu AMI:
 
@@ -160,12 +160,9 @@ packer init .
 packer validate bakery.pkr.hcl
 ```
 
-✅ Expected Output:  
-```
-The configuration is valid.
-```
+✅ Expected Output: The configuration is valid.
 
-### 3.2 Build the Machine Image (10 minutes)
+### 3.2 Build the Machine Image
 
 Run the following command:
 
@@ -206,10 +203,7 @@ This will:
 ssh -i "C:\path\to\your-key.pem" ubuntu@your-instance-ip
 ```
 
-3. Accept the SSH key fingerprint (First Time Only):
-
-Type "yes" and press Enter.
-
+3. Accept the SSH key fingerprint (First Time Only): Type "yes" and press Enter.
 
 ✅ You are now logged into your **EC2 instance**! 🎉  
 
@@ -230,4 +224,4 @@ Python 3.9.5
 ## Conclusion  
 
 You have successfully set up **Packer**, created an **AWS AMI**, and deployed an **EC2 instance** with Python 3.9! 🚀  
-```
+
