@@ -220,6 +220,82 @@ python3.9 --version
 ```
 Python 3.9.5
 ```
+## Default Ubuntu Python Version
+
+- The default Python version that comes pre-installed in **Ubuntu 20.04** is **Python 3.8.10**.
+- This is why running the following command:
+
+  ```bash
+  python3 --version
+  ```
+
+  Returns:
+
+  ```
+  Python 3.8.10
+  ```
+
+---
+
+## Manually Installed Python 3.9
+
+- You installed Python 3.9 using:
+
+  ```bash
+  sudo apt-get install -y python3.9
+  ```
+
+- Since Ubuntu manages multiple Python versions, **Python 3.9** is available as `python3.9`, **not** `python3` by default.
+- Running:
+
+  ```bash
+  python3.9 --version
+  ```
+
+  Returns:
+
+  ```
+  Python 3.9.5
+  ```
+
+---
+
+## No `python` Command by Default
+
+- Running:
+
+  ```bash
+  python --version
+  ```
+
+  Results in:
+
+  ```
+  Command 'python' not found
+  ```
+
+- This is because Ubuntu only includes **python3**, not **python**.
+
+---
+
+## Why Ubuntu Uses `python3` Instead of `python`
+
+### 1. Legacy vs. Modern Versions
+
+- Older versions of **Ubuntu (before 20.04)** included both **Python 2** and **Python 3**.
+- `python` used to refer to **Python 2**, while `python3` referred to **Python 3**.
+- Since **Python 2 reached end-of-life (EOL) on January 1, 2020**, Ubuntu **20.04 and later removed Python 2**.
+- Instead of making `python` an alias for `python3`, **Ubuntu forces users to explicitly use `python3` to avoid confusion**.
+
+### 2. Ubuntu’s Decision to Not Include `python`
+
+- If `python` was included by default, **scripts written for Python 2 might break** on newer systems.
+- To enforce clarity, **Ubuntu only includes `python3`**, and `python` is **not available by default**.
+- Running `python` without installing it gives:
+
+  ```
+  Command 'python' not found
+  ```
 
 ## Conclusion  
 
