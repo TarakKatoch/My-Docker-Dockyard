@@ -181,7 +181,7 @@ This will:
 ### 4.1 Find the AMI  
 1. Log in to **AWS Console**.  
 2. Navigate to **EC2 → AMIs** (Set the region you used when creating the AMI).  
-3. Find the AMI named: bakery-foundation-python39-<timestamp>
+3. Find the AMI named: bakery-foundation-python39-timestamp
 
 ### 4.2 Launch an EC2 Instance with Your AMI  
 
