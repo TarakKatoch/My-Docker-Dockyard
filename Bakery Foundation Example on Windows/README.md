@@ -12,9 +12,9 @@ Before starting, ensure you have:
 - An **AWS account** with IAM credentials.
 - Basic knowledge of AWS and PowerShell.
 
-## Step 1: Install Required Tools (15 minutes)
+## Step 1: Install Required Tools
 
-### 1.1 Install Packer (5 minutes)
+### 1.1 Install Packer
 
 #### Step 1: Download Packer  
 1. Open your browser and go to the **[Packer Download Page](https://www.packer.io/downloads)**.  
@@ -29,9 +29,9 @@ Before starting, ensure you have:
 1. Open **Environment Variables** (Search for it in Windows).  
 2. Click **Environment Variables** → Under **System Variables**, find `Path` → Click **Edit**.  
 3. Click **New**, then add:  
-   ```
-   C:\packer
-   ```
+```
+C:\packer
+ ```
 4. Click **OK** and close all windows.  
 
 #### Step 4: Verify Packer Installation  
@@ -78,7 +78,7 @@ Enter the following when prompted:
 
 ✅ AWS CLI is now configured.
 
-## Step 2: Create the Packer Template (10 minutes)
+## Step 2: Create the Packer Template
 
 ### 2.1 Create the Packer HCL File
 
@@ -121,7 +121,7 @@ build {
 
 3. Save the file as **`bakery.pkr.hcl`** in `C:\packer`.
 
-### 2.2 Find a Valid Ubuntu AMI  
+### 2.2 Find a Valid Ubuntu AMI-The AMI ID varies by AWS region, so we need to select the correct one
 
 Run the following AWS CLI command to get the latest Ubuntu AMI:
 
@@ -141,9 +141,9 @@ source "amazon-ebs" "python39" {
 }
 ```
 
-## Step 3: Validate and Build the Image (15 minutes)
+## Step 3: Validate and Build the Image
 
-### 3.1 Initialize and Validate Packer Template (5 minutes)
+### 3.1 Initialize and Validate Packer Template
 
 1. Open PowerShell and navigate to `C:\packer`:
 
@@ -187,11 +187,7 @@ This will:
 ### 4.1 Find the AMI  
 1. Log in to **AWS Console**.  
 2. Navigate to **EC2 → AMIs** (Set the region you used when creating the AMI).  
-3. Find the AMI named:  
-
-```
-bakery-foundation-python39-<timestamp>
-```
+3. Find the AMI named: bakery-foundation-python39-<timestamp>
 
 ### 4.2 Launch an EC2 Instance with Your AMI  
 
@@ -215,9 +211,8 @@ ssh -i "C:\path\to\your-key.pem" ubuntu@your-instance-ip
 
 3. Accept the SSH key fingerprint (First Time Only):
 
-```
 Type "yes" and press Enter.
-```
+
 
 ✅ You are now logged into your **EC2 instance**! 🎉  
 
