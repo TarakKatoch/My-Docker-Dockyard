@@ -27,7 +27,7 @@ Before you begin, ensure you have the following installed:
     └── api-gateway.yaml
 ```
 
-## Step-by-Step Guide
+## Step-by-Step Guide (Use all the commands in bash terminal)
 
 ### 1. Start Minikube
 
