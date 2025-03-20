@@ -1,4 +1,4 @@
-# Microservices Orchestration with Minikube & Kubernetes
+# Microservices Orchestration with Minikube & Kubernetes ☸️
 
 This project demonstrates a basic microservices architecture using Minikube and Kubernetes. It includes an API Gateway and a Backend Service, showcasing how to containerize applications and deploy them in a Kubernetes cluster.
 
