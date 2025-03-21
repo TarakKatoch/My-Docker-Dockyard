@@ -36,6 +36,9 @@ First, start your Minikube cluster:
 ```bash
 minikube start
 ```
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20014343.png" alt="Screenshot">
+</p>
 
 ### 2. Set Up Docker Environment
 
@@ -63,6 +66,9 @@ docker build -t backend-service .
 ```bash
 kubectl apply -f ../kubernetes/backend-service.yaml
 ```
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20014834.png" alt="Screenshot">
+</p>
 
 #### 3.2 API Gateway
 
@@ -80,6 +86,9 @@ docker build -t api-gateway .
 ```bash
 kubectl apply -f ../kubernetes/api-gateway.yaml
 ```
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20015036.png" alt="Screenshot">
+</p>
 
 ### 4. Verify Deployment
 
@@ -89,6 +98,9 @@ Check the status of your deployments:
 kubectl get deployments
 kubectl get services
 ```
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20020054.png" alt="Screenshot">
+</p>
 
 ### 5. Access the Application
 
@@ -97,8 +109,15 @@ To access the API Gateway service:
 ```bash
 minikube service api-gateway
 ```
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20020139.png" alt="Screenshot">
+</p>
 
 This will open your browser to the API Gateway endpoint, which will display a message from the backend service.
+
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20015902.png" alt="Screenshot">
+</p>
 
 ### 6. Monitoring and Debugging
 
@@ -127,6 +146,9 @@ kubectl delete -f kubernetes/backend-service.yaml
 # Stop Minikube
 minikube stop
 ```
+<p align="center">
+  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20020704.png" alt="Screenshot">
+</p>
 
 ## Architecture Overview
 
