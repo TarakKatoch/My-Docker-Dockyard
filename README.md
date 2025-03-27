@@ -52,6 +52,10 @@ Welcome to **My-Docker-Dockyard**! 🌊 This repository is my personal **dockyar
 - **Goal:** Set up **Packer** on Windows to create a **custom Amazon Machine Image (AMI)** with Python 3.9.  
 - **Key Focus:** Image automation, AWS infrastructure provisioning, and hands-on cloud deployment.  
 
+### 13. [Jenkins Orchestration: CI/CD with Docker & Kubernetes 🤖](Jenkins%20Orchestration%2C%20CI-CD%20with%20Docker%20%26%20Kubernetes)  
+- **Goal:** Implement **Jenkins pipelines** for automated CI/CD using **Docker and Kubernetes**.  
+- **Key Focus:** Continuous Integration, Continuous Deployment, and DevOps automation.  
+
 ---
 
 ## 🌊 Why This Dockyard? ⚓  
